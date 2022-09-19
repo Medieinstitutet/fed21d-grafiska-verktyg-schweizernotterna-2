@@ -65,6 +65,11 @@ button {
     border: none;
 }
 
+// // Öppen meny
+// .menuOpen {
+//     background-color: $lightGrey;
+// }
+
 // Sektioner
 section {
     width: 100vw;
@@ -75,25 +80,47 @@ section {
     background-image: url(../assets/img/ville-kaisla-HNCSCpWrVJA-unsplash.jpg);
     background-size: contain;
     background-position: center;
-
+    text-align: center;
+    
     img {
-       width: 80px;
-       height: 31px; 
-       padding-top: 2%;
-       padding-left: 2%;
+        width: 80px;
+        height: 31px; 
+        text-align: center;
+        position: relative;
+        top: 10px;
+        left: -37%;
     }
 
     h1 {
         text-align: center;
         position: relative;
-        top: -50px;
+        top: -45px;
         font-size: 60px;
         line-height: 74px;
     }
 
+    button {
+        margin-top: -1px;
+        width: auto;
+        height: auto;
+        border-radius: none;
+        background-color: transparent;
+        border: none;
+        font-size: 35px;
+        line-height: 43px;
+        font-weight: 400;
+    }
+}
+
+#sectionNews {
     h2 {
-        text-align: center;
-        margin-top: -12px;
+       padding-left: 3%; 
+    }
+
+    p {
+        padding-left: 3%; 
+        padding-right: 1.5%;
+        letter-spacing: 0.1em;
     }
 }
 
@@ -105,17 +132,23 @@ section {
         height: 175px;
         margin: 0 auto; 
 
-        h4 {
-            display: block;
-            padding-top: 20px;
-        }
-
         img {
             width: 140px;
             height: 140px;
-            border-radius: 10px;
+            
             padding: 2%;
             float: left;
+            padding-top: 4.5%;
+            border-radius: 25px;
+        }
+
+        h4 {
+            display: block;
+            padding-top: 25px;
+        }
+
+        p {
+            letter-spacing: 0.1em;
         }
     }
 }
