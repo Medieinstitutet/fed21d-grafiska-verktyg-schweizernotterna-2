@@ -1,0 +1,133 @@
+body {
+    background-color: $black;
+    color: #ffffff;
+}
+
+
+// Rubriker
+h1 {
+    color: $lightRed;
+    font-size: 70px;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+h4 {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+
+// Text
+p {
+    font-size: 20px;
+    line-height: 25px;
+}
+
+
+// Länk
+a {
+    color: $lightRed;
+    font-size: 20px;
+    line-height: 25px;
+    &:hover {
+        color: $darkRed;
+    }
+}
+
+
+// Knappar 
+button {
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: $lightRed;
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+// Sektioner
+section {
+    width: 100vw;
+    height: 100vh;
+}
+
+#sectionStart {
+    background-image: url(../assets/img/ville-kaisla-HNCSCpWrVJA-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+
+    img {
+       width: 80px;
+       height: 31px; 
+       padding-top: 2%;
+       padding-left: 2%;
+    }
+
+    h1 {
+        text-align: center;
+        position: relative;
+        top: -50px;
+    }
+
+    h2 {
+        text-align: center;
+    }
+}
+
+#sectionReview {
+    div {
+        background-color: $darkGrey;
+        border-radius: 10px;
+        width: 350px;
+        height: 175px;
+        margin: 0 auto; 
+    }
+
+    h4 {
+        display: block;
+    }
+
+    img {
+        width: 140px;
+        height: 140px;
+        border-radius: 10px;
+        padding: 2%;
+        float: left;
+    }
+}
+
+#sectionBooking {
+    img {
+       width: 346px;
+       height: 346px;
+       border-radius: 10px;
+    }
+
+    input {
+        display: block;
+        border-radius: 10px;
+        width: 300px;
+        height: 30px;
+        border: 3px #4B0F0F;
+        margin-bottom: 2%;
+    }
+}
+
+
+// Footer
+.footerDivGrey {
+    background-color: $lightGrey;
+    color: #000000;
+    height: 143px;
+}
