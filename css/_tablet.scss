@@ -18,7 +18,7 @@
                 height: 60px;
                 position: absolute;
                 top: 35px;
-                right: 80px;
+                right: 50px;
                 span {
                     width: 100px;
                     height: 10px;
@@ -34,13 +34,29 @@
         }
     }
 
+    // Öppen meny
+    .openMenu {
+        h1 {
+            margin-top: 90px;
+            margin-left: 81px;
+        }
+        h2 {
+            margin-left: 81px;
+            margin-bottom: 5%;
+        }
+        #closeMenuBtn {
+            top: 33px;
+            right: 29px;
+        }
+    }
+
     // Sektion med nyheter
     #sectionNews {
         width: 47%;
         height: 60vh;
         float: left;
         h2 {
-            width: 100%;
+            // width: 100%;
             position: absolute;
             margin: 0;
         }
@@ -57,7 +73,6 @@
         width: 53%;
         height: 60vh;
         float: left;
-        padding-right: 2%;
         position: relative;
         top: 25px;
         div {
@@ -66,21 +81,19 @@
         img {
             margin-bottom: 2%;
         }
-
     }
 
     // Sektion med info om funktioner
     #sectionFunctions {
         width: 50%;
-        height: 65vh;
+        height: 63vh;
         float: left;
-        margin-top: 3%;
     }
 
     // Sektion med bokningsformulär
     #sectionBooking {
         width: 50%;
-        height: 65vh;
+        height: 63vh;
         float: left;
         margin-top: 3%;
     }

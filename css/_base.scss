@@ -82,6 +82,7 @@ section {
     background-size: contain;
     background-position: center;
     text-align: center;
+    padding: 0;
     img {
         width: 80px;
         height: 31px; 
@@ -118,6 +119,7 @@ section {
     background-color: $lightGrey;
     position: absolute;
     top: 0;
+    padding: 0;
     h1 {
         text-align: left;
         margin-top: 15px;
@@ -162,8 +164,9 @@ section {
 
 // Sektion med nyheter
 #sectionNews {
+    padding: 0;
     h2 {
-       padding-left: 2%; 
+       margin-left: 2%; 
     }
     p {
         padding-left: 2%; 
@@ -174,6 +177,7 @@ section {
 
 // Sektion med recensioner
 #sectionReview {
+    padding: 0;
     div {
         background-color: $darkGrey;
         border-radius: 10px;
@@ -183,10 +187,8 @@ section {
         img {
             width: 140px;
             height: 140px;
-            padding: 2%;
             float: left;
-            padding-top: 4.5%;
-            border-radius: 25px;
+            border-radius: 10px;
         }
         h4 {
             display: block;
@@ -202,8 +204,9 @@ section {
 
 // Sektion med info om funktioner
 #sectionFunctions {
-    padding-left: 2%;
-    padding-right: 4%;
+    // padding-left: 2%;
+    // padding-right: 4%;
+    padding: 0;
     h2 {
         margin-bottom: -15px;
         padding-bottom: 0;
@@ -222,6 +225,7 @@ section {
 #sectionBooking {
     padding-left: 3%;
     padding-right: 3%;    
+    padding: 0;
     img {
        width: 346px;
        height: 346px;
@@ -252,12 +256,15 @@ section {
 ///////////////
 // Footer
 footer {
+    width: 100%;
+    min-height: fit-content;
+    padding: 0;
     div {
         display: flex;
-        padding-left: 3%;
+        // padding-left: 3%;
         h4 {
             margin: 0;
-            padding-left: 2%;
+            // padding-left: 2%;
         }
     }
     .footerDivGrey {

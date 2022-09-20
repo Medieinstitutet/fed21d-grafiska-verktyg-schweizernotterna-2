@@ -1,0 +1,94 @@
+@media screen and (min-width: 1024px) {
+    ///////////////
+    // Sektioner
+
+    // Sektion startvy
+    #sectionStart {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    // Sektion med nyheter
+    #sectionNews {
+        width: 100%;
+        height: 25vh;
+        padding-left: 9%;
+        padding-right: 9%;
+        p {
+            font-size: 20px;
+        }
+    }
+
+    // Sektion med recensioner
+    #sectionReview {
+        width: 100%;
+        height: 25vh;
+        display: flex;
+        padding-left: 4%;
+        padding-right: 4%;
+        div {
+            height: 175px;
+            img {
+                padding-top: 7%;
+            }
+            h4 {
+                padding-top: 0;
+                line-height: 22px;
+            }
+            p {
+                font-size: 20px;
+                padding-right: 10%;
+            }
+        }
+    }
+
+    // Sektion med info om funktioner
+    #sectionFunctions {
+        width: 100%;
+        height: 40vh;
+        padding-left: 11%;
+        padding-right: 11%;
+    }
+
+    // Sektion med bokningsformulär
+    #sectionBooking {
+        width: 100%;
+        height: 35vh;
+
+        img {
+            float: left;
+        }
+        padding-left: 5%;
+        padding-right: 5%;
+        h3 {
+            margin: 0;
+            display: inline;
+        }
+        form {
+            margin: 0;
+            display: inline;
+            input {
+                width: 812px;
+                margin: 0;
+                margin-bottom: 2%;
+            }
+            button {
+                position: absolute;
+                right: 27%;
+            }
+        }
+    }
+
+    ///////////////
+    // Footer
+    footer {
+        width: 100%;
+        min-height: fit-content;
+        div {
+            height: 143px;
+            width: 33.33%;
+            float: left;
+        }
+    }
+}
