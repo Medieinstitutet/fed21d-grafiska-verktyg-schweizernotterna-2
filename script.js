@@ -1,10 +1,23 @@
 // Hämta variabler
 let sectionStart = document.getElementById("sectionStart");
-let menuBtn = document.getElementById("menuBtn");
+let menuBtnText = document.getElementById("menuBtnText");
+let menuBtnHamburger = document.getElementById("menuBtnHamburger");
 
 
-// Klick på menyknappen
-menuBtn.addEventListener("click", () => {
+// Klick på "Meny"-text
+menuBtnText.addEventListener("click", () => {
+    openMenu();
+});
+
+
+// Klick på hamburgermenyn
+menuBtnHamburger.addEventListener("click", () => {
+    openMenu();
+});
+
+
+// Funktion för att öppna menyn
+function openMenu() {
 
     // Skapa meny
     let openMenu = document.createElement("section");
@@ -29,4 +42,4 @@ menuBtn.addEventListener("click", () => {
     document.getElementById("closeMenuBtn").addEventListener("click", () => {
         location.reload();
     })
-})
+};
