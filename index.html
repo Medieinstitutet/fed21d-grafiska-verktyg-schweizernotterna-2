@@ -19,13 +19,13 @@
         <img src="./assets/logo/AudiSpyder.svg" alt="Svartvit Audi">
         <h1 id="headingAudi">Audi R8</h1>
         <button id="menuBtnText">Meny</button>
-        <nav id="menuBtnHamburger">
-            <div>
+        <button id="menuBtnHamburger">
+            <nav aria-label="Open menu">
                 <span></span>
                 <span></span>
                 <span></span>
-            </div>
-        </nav>
+            </nav>
+        </button>
     </section>
 
     <section id="sectionNews">
@@ -37,21 +37,27 @@
 
     <section id="sectionReview">
         <div>
-            <img src="./assets/img/addy-ire-JSjmolZj8O0-unsplash-mobile.jpg" alt="Röd Audi">
-            <h4>Recension</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <div class="reviewWrapper">
+                <img src="./assets/img/addy-ire-JSjmolZj8O0-unsplash-mobile.jpg" alt="Röd Audi">
+                <h3>Recension</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
         </div>
 
         <div>
-            <img src="./assets/img/addy-ire-JSjmolZj8O0-unsplash-mobile.jpg" alt="Röd Audi">
-            <h4>Recension</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <div class="reviewWrapper">
+                <img src="./assets/img/addy-ire-JSjmolZj8O0-unsplash-mobile.jpg" alt="Röd Audi">
+                <h3>Recension</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
         </div>
 
         <div>
-            <img src="./assets/img/addy-ire-JSjmolZj8O0-unsplash-mobile.jpg" alt="Röd Audi">
-            <h4>Recension</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <div class="reviewWrapper">
+                <img src="./assets/img/addy-ire-JSjmolZj8O0-unsplash-mobile.jpg" alt="Röd Audi">
+                <h3>Recension</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
         </div>
     </section>
 
@@ -74,33 +80,35 @@
 
     <section id="sectionBooking">
         <img src="./assets/img/roberto-nickson-IOI3KCYsn0o-unsplash.jpg" alt="Kör Audi i regnet">
-        <h3>Boka förhandsvisning</h3>
-
-        <form>
-            <input type="text" placeholder="Förnamn">
-            <input type="text" placeholder="Efternamn">
-            <input type="text" placeholder="Namn@mail.com">
-            <button>Boka</button>
-        </form>
         
+        <div id="bookingWrapper">
+            <h3>Boka förhandsvisning</h3>
+
+            <form>
+                <input type="text" placeholder="Förnamn">
+                <input type="text" placeholder="Efternamn">
+                <input type="text" placeholder="Namn@mail.com">
+                <button>Boka</button>
+            </form>
+        </div>
     </section>
 
     <footer>
         <nav>
             <div class="footerDivGrey">
-                <h4>Nyheter</h4>
-                <h4>Funktioner</h4>
-                <h4>Boka</h4>
+                <h4><a href="">Nyheter</a></h4>
+                <h4><a href="">Funktioner</a></h4>
+                <h4><a href="">Boka</a></h4>
             </div>
 
             <div class="footerDivBlack">
-                <h4>Policy</h4>
-                <h4>Cookies</h4>
+                <h4><a href="">Policy</a></h4>
+                <h4><a href="">Cookies</a></h4>
             </div>
 
             <div class="footerDivGrey">
-                <h4>Kontakta oss</h4>
-                <h4>Hitta oss</h4>
+                <h4><a href="">Kontakta oss</a></h4>
+                <h4><a href="">Hitta oss</a></h4>
             </div>
         </nav>
     </footer>

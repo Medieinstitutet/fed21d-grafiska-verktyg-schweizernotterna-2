@@ -31,9 +31,9 @@ function openMenu() {
             <span id="span2"></span>
         </button>
 
-        <h2>Nyheter</h2>
-        <h2>Funktioner</h2>
-        <h2>Boka</h2>
+        <h2><a href="">Nyheter</a></h2>
+        <h2><a href="">Funktioner</a></h2>
+        <h2><a href="">Boka</a></h2>
     `;
 
     sectionStart.append(openMenu);

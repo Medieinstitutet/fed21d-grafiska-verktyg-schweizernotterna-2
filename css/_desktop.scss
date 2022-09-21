@@ -7,6 +7,30 @@
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
+        img {
+            width: 147px;
+            height: 57px; 
+            top: 19px;
+            left: 29px;
+        }
+        #headingAudi {
+            font-size: 70px;
+            line-height: 87px;
+            top: -30px;
+            left: 19px;
+        }
+        #menuBtnHamburger {
+            width: 110px;
+            height: 60px;
+            position: absolute;
+            top: 57px;
+            right: 40px;
+        }
+    }
+
+    // Öppen meny
+    .openMenu {
+       height: 50vh;
     }
 
     // Sektion med nyheter
@@ -14,7 +38,8 @@
         width: 100%;
         height: 25vh;
         padding-left: 9%;
-        padding-right: 9%;
+        padding-right: 8%;
+        margin-top: 4%;
         p {
             font-size: 20px;
         }
@@ -24,58 +49,55 @@
     #sectionReview {
         width: 100%;
         height: 25vh;
+        margin-top: 2%;
         display: flex;
-        padding-left: 4%;
-        padding-right: 4%;
-        div {
-            height: 175px;
-            img {
-                padding-top: 7%;
-            }
-            h4 {
-                padding-top: 0;
+        justify-content: space-evenly;
+        // div {
+            h3 {
+                font-size: 18px;
                 line-height: 22px;
             }
             p {
                 font-size: 20px;
-                padding-right: 10%;
             }
-        }
+        // }
     }
 
     // Sektion med info om funktioner
     #sectionFunctions {
         width: 100%;
         height: 40vh;
-        padding-left: 11%;
-        padding-right: 11%;
+        padding-left: 9%;
+        padding-right: 9%;
+        p {
+            font-size: 20px;
+            line-height: 25px;
+        }
     }
 
     // Sektion med bokningsformulär
     #sectionBooking {
         width: 100%;
         height: 35vh;
-
+        padding-left: 5%;
+        padding-right: 5%;
         img {
             float: left;
         }
-        padding-left: 5%;
-        padding-right: 5%;
-        h3 {
-            margin: 0;
-            display: inline;
+        #bookingWrapper {
+            display: flex;
+            flex-direction: column;
+            padding-left: 5%;
+            padding-right: 5%;
         }
         form {
-            margin: 0;
-            display: inline;
             input {
                 width: 812px;
-                margin: 0;
                 margin-bottom: 2%;
             }
             button {
                 position: absolute;
-                right: 27%;
+                right: -8px;
             }
         }
     }
@@ -89,6 +111,7 @@
             height: 143px;
             width: 33.33%;
             float: left;
+            padding-left: 1.5%;
         }
     }
 }

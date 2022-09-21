@@ -154,7 +154,10 @@ section {
         top: 40px; 
         right: -8px; 
     }
-    h2 {
+    a {
+        font-size: 35px;
+        line-height: 43px;
+        font-weight: 400;
         color: #000000;
         text-align: left;
         margin-left: 5%;
@@ -166,11 +169,11 @@ section {
 #sectionNews {
     padding: 0;
     h2 {
-       margin-left: 2%; 
+        margin-left: 15px;
     }
     p {
-        padding-left: 2%; 
-        padding-right: 2.5%;
+        margin-left: 15px;
+        margin-right: 2px;
         letter-spacing: 0.1em;
     }
 }
@@ -183,47 +186,57 @@ section {
         border-radius: 10px;
         width: 350px;
         height: 175px;
-        margin: 0 auto; 
-        img {
-            width: 140px;
-            height: 140px;
-            float: left;
-            border-radius: 10px;
-        }
-        h4 {
-            display: block;
-            padding-top: 25px;
-            margin-bottom: 1%;
-        }
-        p {
-            letter-spacing: 0.1em;
-            margin-top: 0;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        .reviewWrapper {
+            img {
+                width: 140px;
+                height: 140px;
+                float: left;
+                border-radius: 10px;
+                margin-left: 2%;
+                margin-top: 5%;
+                margin-right: 10px;
+            }
+            h3 {
+                padding-top: 25px;
+                margin-bottom: 1%;
+                margin-top: 5%;
+            }
+            p {
+                letter-spacing: 0.1em;
+                margin-top: 0;
+            }
         }
     }
 }
 
 // Sektion med info om funktioner
 #sectionFunctions {
-    // padding-left: 2%;
-    // padding-right: 4%;
     padding: 0;
     h2 {
         margin-bottom: -15px;
         padding-bottom: 0;
+        margin-left: 15px;
     }
     h3 {
         color: $lightRed;
         margin-bottom: 0;
         padding-bottom: 0;
+        margin-left: 15px;
     }
     p {
         margin-top: 0.5%;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    a {
+        margin-left: 15px;
     }
 }
 
 // Sektion med bokningsformulär
 #sectionBooking {
-    padding-left: 3%;
     padding-right: 3%;    
     padding: 0;
     img {
@@ -232,11 +245,11 @@ section {
        border-radius: 10px;
     }
     h3 {
-        padding-left: 2%;
+        margin-left: 15px;
     }
     form {
         position: relative;
-        padding-left: 2%;
+        margin-left: 15px;
         input {
             display: block;
             border-radius: 10px;
@@ -256,27 +269,35 @@ section {
 ///////////////
 // Footer
 footer {
-    width: 100%;
+    width: 100vw;
     min-height: fit-content;
     padding: 0;
     div {
         display: flex;
-        // padding-left: 3%;
         h4 {
             margin: 0;
-            // padding-left: 2%;
+            margin-left: 15px;
+        }
+        a {
+            font-size: 18px;
+            font-weight: 400;
         }
     }
     .footerDivGrey {
         background-color: $lightGrey;
-        color: #000000;
         height: 143px;
-        justify-content: space-around;
+        justify-content: space-evenly;
         flex-direction: column;
+        a {
+            color: #000000;
+        }
     }
     .footerDivBlack {
-        justify-content: space-around;
+        justify-content: space-evenly;
         flex-direction: column;
         height: 116px;
+        a {
+            color: #ffffff;
+        }
     }
 }
