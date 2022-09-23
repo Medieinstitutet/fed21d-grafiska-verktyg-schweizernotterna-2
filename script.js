@@ -40,6 +40,32 @@ function openMenu() {
 
     // Klick på kryss för att stänga meny
     document.getElementById("closeMenuBtn").addEventListener("click", () => {
-        location.reload();
-    })
+        openMenu.remove().classList;
+    });
 };
+
+
+// Animation för logotype
+gsap.to("#logotype", {
+    delay: 1,
+    x: "100vw",
+    duration: 1.25,
+    ease: Linear.easeOut
+});
+
+gsap.to("#logotype", {
+    delay: 2.25,
+    opacity: 0
+});
+
+gsap.to("#logotype", {
+    delay: 2.75,
+    x: "-50px",
+});
+
+gsap.to("#logotype", {
+    delay: 3.25,
+    x: "0",
+    duration: 0.5,
+    opacity: 1
+});

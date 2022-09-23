@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ett skolprojekt, en fiktiv reklamsida för Audi R8.">
+    <meta property="og:title" content="Fiktiv sida för Audi R8">
+    <meta property="og:type" content="website">
+    <meta name="theme-color" content="#fafafa">
     <title>Audi R8</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,15 +16,16 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"></script>
     <script defer src="script.js"></script>
 </head>
 <body>
     <section id="sectionStart">
-        <img src="./assets/logo/AudiSpyder.svg" alt="Svartvit Audi">
+        <img id="logotype" src="./assets/logo/AudiSpyder.svg" alt="Svartvit Audi">
         <h1 id="headingAudi">Audi R8</h1>
-        <button id="menuBtnText">Meny</button>
-        <button id="menuBtnHamburger">
-            <nav aria-label="Open menu">
+        <button id="menuBtnText" aria-label="Öppna meny">Meny</button>
+        <button id="menuBtnHamburger" aria-label="Öppna meny">
+            <nav>
                 <span></span>
                 <span></span>
                 <span></span>
@@ -85,10 +90,16 @@
             <h3>Boka förhandsvisning</h3>
 
             <form>
-                <input type="text" placeholder="Förnamn">
-                <input type="text" placeholder="Efternamn">
-                <input type="text" placeholder="Namn@mail.com">
-                <button>Boka</button>
+                <label name="Förnamn">
+                    <input type="text" placeholder="Förnamn">
+                </label>
+                <label name="Efternamn">
+                    <input type="text" placeholder="Efternamn">
+                </label>
+                <label name="Mail">
+                    <input type="text" placeholder="Namn@mail.com">
+                </label>
+                <button aria-label="Boka visning">Boka</button>
             </form>
         </div>
     </section>
