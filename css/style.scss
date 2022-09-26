@@ -1,9 +1,18 @@
+// --------------------------------------------------------------
+// ----------Beskrivning av sidan--------------------------------
+// ----------Denna sida importerar alla olika sass-filer---------
+// --------------------------------------------------------------
+
 @import "_normalize";
 
+// Variabler och färgkoder
 @import "_variables";
 
+// Basstyling samt mobil
 @import "_base";
 
+// För skärmar från 768px
 @import "_tablet";
 
+// För skärmar från 1024px
 @import "_desktop";
