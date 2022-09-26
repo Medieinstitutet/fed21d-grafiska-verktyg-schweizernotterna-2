@@ -182,7 +182,7 @@ section {
 }
 
 // Sektion med nyheter
-#sectionNews {
+.sectionNews {
     padding: 0;
     h2 {
         margin-left: 15px;
@@ -195,7 +195,7 @@ section {
 }
 
 // Sektion med recensioner
-#sectionReview {
+.sectionReview {
     padding: 0;
     div {
         background-color: $darkGrey;
@@ -228,7 +228,7 @@ section {
 }
 
 // Sektion med info om funktioner
-#sectionFunctions {
+.sectionFunctions {
     padding: 0;
     h2 {
         margin-bottom: -15px;
@@ -252,7 +252,7 @@ section {
 }
 
 // Sektion med bokningsformulär
-#sectionBooking {
+.sectionBooking {
     padding-right: 3%;    
     padding: 0;
     img {
@@ -289,7 +289,7 @@ footer {
     width: 100%;
     min-height: fit-content;
     padding: 0;
-    div {
+    article {
         display: flex;
         h4 {
             margin: 0;

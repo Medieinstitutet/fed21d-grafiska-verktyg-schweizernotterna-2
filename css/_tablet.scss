@@ -51,7 +51,7 @@
     }
 
     // Sektion med nyheter
-    #sectionNews {
+    .sectionNews {
         width: 47%;
         height: 60vh;
         float: left;
@@ -70,7 +70,7 @@
     }
 
     // Sektion med recensioner
-    #sectionReview {
+    .sectionReview {
         width: 53%;
         height: 60vh;
         float: left;
@@ -79,14 +79,14 @@
     }
 
     // Sektion med info om funktioner
-    #sectionFunctions {
+    .sectionFunctions {
         width: 50%;
         height: 63vh;
         float: left;
     }
 
     // Sektion med bokningsformulär
-    #sectionBooking {
+    .sectionBooking {
         width: 50%;
         height: 63vh;
         float: left;
@@ -103,7 +103,7 @@
     // Footer
     footer {
         width: 100vw;
-        div {
+        article {
             width: 100vw;
             h4 {
                 margin: 0;
