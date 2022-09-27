@@ -333,11 +333,11 @@ footer {
     width: 100%;
     min-height: fit-content;
     padding: 0;
-    div {
+    ul {
         display: flex;
-        h4 {
+        li {
             margin: 0;
-            margin-left: 15px;
+            list-style-type: none;
         }
         a {
             font-size: 18px;

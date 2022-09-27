@@ -159,14 +159,15 @@
     footer {
         width: 100%;
         min-height: fit-content;
-        div {
+        ul {
             height: 143px;
             width: 33.33%;
             float: left;
             padding-left: 1.5%;
+            margin-bottom: 0;
         }
         #footerDivGreyNews {
-            h4 {
+            li {
                 padding-bottom: 3%;
             }
         }
