@@ -79,7 +79,7 @@ button {
     height: 50px;
     border-radius: 10px;
     background-color: $lightRed;
-    color: #ffffff;
+    color: #000000;
     font-size: 20px;
     line-height: 25px;
     border: none;
@@ -87,9 +87,38 @@ button {
         background-color: $darkRed;
     }
     &:disabled {
-        background-color: $lightGrey;
+        background-color: $darkGrey;
     }
 }
+#denyBtn {
+    background-color: $darkGrey;
+    color: #ffffff;
+}
+
+///////////////
+/// Cookies ///
+///////////////
+aside {
+    position: fixed;
+    bottom: 0;
+    background-color: $lightGrey;
+    height: fit-content;
+    padding-left: 5%;
+    padding-right: 5%;
+    z-index: 1;
+    width: 100vw;
+    p {
+        font-size: 15px;
+        line-height: 25px;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+    button {
+        margin-bottom: 35px;
+        margin-left: 1.5%;
+    }
+}
+
 
 ///////////////
 // Sektioner //
@@ -136,6 +165,7 @@ section {
         font-size: 35px;
         line-height: 43px;
         font-weight: 400;
+        color: #ffffff;
     }
     #menuBtnHamburger {
         visibility: hidden;
@@ -291,7 +321,7 @@ section {
         button {
             position: absolute;
             right: 10px;
-            // color: #000000;
+            color: #000000;
         }
     } 
 }

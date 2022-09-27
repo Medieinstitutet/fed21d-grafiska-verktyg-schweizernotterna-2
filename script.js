@@ -2,15 +2,18 @@
 let sectionStart = document.getElementById("sectionStart");
 let menuBtnText = document.getElementById("menuBtnText");
 let menuBtnHamburger = document.getElementById("menuBtnHamburger");
+let acceptBtn = document.getElementById("acceptBtn");
+let denyBtn = document.getElementById("denyBtn");
+let cookies = document.getElementById("cookies");
 
 
-// Klick på "Meny"-text
+// Klick på "Meny"-text (mobilläge)
 menuBtnText.addEventListener("click", () => {
     openMenu();
 });
 
 
-// Klick på hamburgermenyn
+// Klick på hamburgermenyn (tablet- och desktop-läge)
 menuBtnHamburger.addEventListener("click", () => {
     openMenu();
 });
@@ -43,6 +46,18 @@ function openMenu() {
         openMenu.remove().classList;
     });
 };
+
+
+// Klick på "Godkänn"-cookies
+acceptBtn.addEventListener("click", () => {
+    cookies.remove();
+});
+
+
+// Klick på "Neka"-cookies
+denyBtn.addEventListener("click", () => {
+    cookies.remove();
+});
 
 
 // Animation för logotype
