@@ -4,7 +4,8 @@ let menuBtnText = document.getElementById("menuBtnText");
 let menuBtnHamburger = document.getElementById("menuBtnHamburger");
 let acceptBtn = document.getElementById("acceptBtn");
 let denyBtn = document.getElementById("denyBtn");
-let cookies = document.getElementById("cookies");
+let cookiesMobile = document.getElementById("cookiesMobile");
+let cookiesDesktop = document.getElementById("cookiesDesktop");
 
 
 // Klick på "Meny"-text (mobilläge)

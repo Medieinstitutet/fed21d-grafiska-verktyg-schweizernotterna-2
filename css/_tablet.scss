@@ -11,10 +11,18 @@
         display: flex;
         padding-left: 4%;
         padding-right: 4%;
-        margin-bottom: 5%;
+        margin-bottom: 1%;
         button {
             align-self: center;
             margin-right: 2%;
+        }
+        #cookiesMobile {
+            float: left;
+            width: 80vw;
+            padding: 2%;
+        }
+        .cookiesBtns {
+            width: 20vw;
         }
     }
 
@@ -25,6 +33,7 @@
     // Sektion startvy
     #sectionStart {
         text-align: left;
+        background-repeat: repeat;
         img {
             left: 0;
         }
@@ -47,11 +56,6 @@
         }
         #menuBtnHamburger {
             visibility: visible;
-            width: 110px;
-            height: 60px;
-            position: absolute;
-            top: 33px;
-            right: 45px;
         }
     }
 
