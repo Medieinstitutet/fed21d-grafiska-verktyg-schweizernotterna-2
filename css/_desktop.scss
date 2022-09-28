@@ -36,7 +36,7 @@
         }
         .cookiesBtns {
             width: 28vw;
-            font-size: 20px;
+            font-size: $size20px;
             line-height: 25px;
             align-self: center;
         }
@@ -59,7 +59,7 @@
             left: 29px;
         }
         #headingAudi {
-            font-size: 70px;
+            font-size: $size70px;
             line-height: 87px;
             top: -30px;
             left: 19px;
@@ -101,7 +101,7 @@
         padding-right: 8%;
         margin-top: 4%;
         p {
-            font-size: 20px;
+            font-size: $size20px;
         }
     }
 
@@ -114,11 +114,11 @@
         display: flex;
         justify-content: space-evenly;
         h3 {
-            font-size: 18px;
+            font-size: $size18px;
             line-height: 22px;
         }
         p {
-            font-size: 20px;
+            font-size: $size20px;
         }
     }
 
@@ -130,7 +130,7 @@
         padding-left: 9%;
         padding-right: 9%;
         p {
-            font-size: 20px;
+            font-size: $size20px;
             line-height: 25px;
         }
     }
