@@ -5,10 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Ett skolprojekt, en fiktiv reklamsida för Audi R8.">
+    <meta name="keywords" content="Audi, R8, cool, snabb, snygg, bil">
     <meta property="og:title" content="Fiktiv sida för Audi R8">
     <meta property="og:type" content="website">
     <meta name="theme-color" content="#fafafa">
     <title>Audi R8</title>
+    <link rel="shortcut icon" href="./assets/logo/AudiSpyder.svg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
@@ -42,11 +44,11 @@
             <h1 id="headingAudi">Audi R8</h1>
             <button id="menuBtnText" aria-label="Öppna meny">Meny</button>
             <button id="menuBtnHamburger" aria-label="Öppna meny">
-                <div>
+                <nav>
                     <span></span>
                     <span></span>
                     <span></span>
-                </div>
+                </nav>
             </button>
         </section>
 
@@ -102,13 +104,13 @@
 
                 <form>
                     <label for="förnamn">
-                        <input type="text" name="förnamn" placeholder="Förnamn">
+                        <input type="text" id="förnamn" placeholder="Förnamn">
                     </label>
                     <label for="efternamn">
-                        <input type="text" name="efternamn" placeholder="Efternamn">
+                        <input type="text" id="efternamn" placeholder="Efternamn">
                     </label>
                     <label for="mail">
-                        <input type="text" name="mail" placeholder="Namn@mail.com">
+                        <input type="text" id="mail" placeholder="Namn@mail.com">
                     </label>
                     <button aria-label="Boka visning">Boka</button>
                 </form>

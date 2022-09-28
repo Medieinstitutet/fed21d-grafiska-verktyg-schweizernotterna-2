@@ -37,7 +37,7 @@
         .cookiesBtns {
             width: 28vw;
             font-size: $size20px;
-            line-height: 25px;
+            line-height: $height25px;
             align-self: center;
         }
     }
@@ -60,7 +60,7 @@
         }
         #headingAudi {
             font-size: $size70px;
-            line-height: 87px;
+            line-height: $height87px;
             top: -30px;
             left: 19px;
             margin-right: 0;
@@ -115,7 +115,7 @@
         justify-content: space-evenly;
         h3 {
             font-size: $size18px;
-            line-height: 22px;
+            line-height: $height22px;
         }
         p {
             font-size: $size20px;
@@ -131,7 +131,7 @@
         padding-right: 9%;
         p {
             font-size: $size20px;
-            line-height: 25px;
+            line-height: $height25px;
         }
     }
 

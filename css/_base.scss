@@ -23,13 +23,13 @@ body {
 h1 {
     color: $lightRed;
     font-size: $size70px;
-    line-height: 87px;
+    line-height: $height87px;
     font-weight: 400;
 }
 
 h2 {
     font-size: $size35px;
-    line-height: 43px;
+    line-height: $height43px;
     font-weight: 400;
 }
 
@@ -48,7 +48,7 @@ h4 {
 ///////////////
 p {
     font-size: $size15px;
-    line-height: 25px;
+    line-height: $height25px;
     font-family: 'Rubik', sans-serif;
     letter-spacing: 0.1em;
     font-weight: 400;
@@ -60,7 +60,7 @@ p {
 a {
     color: $lightRed;
     font-size: $size15px;
-    line-height: 25px;
+    line-height: $height25px;
     font-weight: 400;
     text-decoration: none;
     &:hover {
@@ -81,7 +81,7 @@ button {
     background-color: $lightRed;
     color: $black;
     font-size: $size20px;
-    line-height: 25px;
+    line-height: $height25px;
     border: none;
     &:hover {
         background-color: $darkRed;
@@ -92,7 +92,7 @@ button {
 }
 #denyBtn {
     background-color: $darkGrey;
-    color: #ffffff;
+    color: $white;
     &:hover {
         background-color: $darkRed;
         color: $black;
@@ -120,7 +120,7 @@ aside {
     }
     p {
         font-size: $size15px;
-        line-height: 25px;
+        line-height: $height25px;
         margin-right: 1%;
         color: $black;
         display: inline;
@@ -136,7 +136,7 @@ aside {
         width: 100px;
         height: 35px;
         font-size: $size12px;
-        line-height: 15px;
+        line-height: $height15px;
         margin-top: 10px;
     }
     #cookiesDesktop {
@@ -180,10 +180,10 @@ section {
         position: relative;
         top: -45px;
         font-size: $size60px;
-        line-height: 74px;
+        line-height: $height74px;
         text-shadow: 0px 0px 50px black;
     }
-    div {
+    nav {
         visibility: hidden;
     }
     button {
@@ -194,9 +194,9 @@ section {
         background-color: transparent;
         border: none;
         font-size: $size35px;
-        line-height: 43px;
+        line-height: $height43px;
         font-weight: 400;
-        color: #ffffff;
+        color: $white;
     }
     #menuBtnHamburger {
         visibility: hidden;
@@ -272,7 +272,7 @@ section {
     }
     a {
         font-size: $size35px;
-        line-height: 43px;
+        line-height: $height43px;
         font-weight: 400;
         color: $black;
         margin-left: 5%;
@@ -420,7 +420,7 @@ footer {
         height: 116px;
         padding-top: 1%;
         a {
-            color: #ffffff;
+            color: $white;
         }
     }
 }
