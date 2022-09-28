@@ -38,15 +38,15 @@
         </aside>
 
         <section id="sectionStart">
-            <img id="logotype" src="./assets/logo/AudiSpyder.svg" alt="Svartvit Audi" width="80px" height="31px">
+            <img id="logotype" src="./assets/logo/AudiSpyder.svg" alt="Svartvit Audi" width="80" height="31">
             <h1 id="headingAudi">Audi R8</h1>
             <button id="menuBtnText" aria-label="Öppna meny">Meny</button>
             <button id="menuBtnHamburger" aria-label="Öppna meny">
-                <nav>
+                <div>
                     <span></span>
                     <span></span>
                     <span></span>
-                </nav>
+                </div>
             </button>
         </section>
 
@@ -101,14 +101,14 @@
                 <h3>Boka förhandsvisning</h3>
 
                 <form>
-                    <label name="Förnamn">
-                        <input type="text" placeholder="Förnamn">
+                    <label for="förnamn">
+                        <input type="text" name="förnamn" placeholder="Förnamn">
                     </label>
-                    <label name="Efternamn">
-                        <input type="text" placeholder="Efternamn">
+                    <label for="efternamn">
+                        <input type="text" name="efternamn" placeholder="Efternamn">
                     </label>
-                    <label name="Mail">
-                        <input type="text" placeholder="Namn@mail.com">
+                    <label for="mail">
+                        <input type="text" name="mail" placeholder="Namn@mail.com">
                     </label>
                     <button aria-label="Boka visning">Boka</button>
                 </form>
