@@ -93,6 +93,10 @@ button {
 #denyBtn {
     background-color: $darkGrey;
     color: #ffffff;
+    &:hover {
+        background-color: $darkRed;
+        color: #000000;
+    }
 }
 
 ///////////////
@@ -111,7 +115,7 @@ aside {
     #cookiesMobile {
         float: left;
         width: 68vw;
-        padding: 2%;
+        padding: 4%;
         align-self: center;
     }
     p {
@@ -130,17 +134,16 @@ aside {
     } 
     button {
         width: 100px;
-        height: 30px;
+        height: 35px;
         font-size: 12px;
         line-height: 15px;
-        margin-top: 7px;
+        margin-top: 10px;
     }
     #cookiesDesktop {
         display: none;
     }
     .cookiesBtns {
         flex-wrap: wrap;
-        align-self: center;
         width: 20vw;
     }
 }
@@ -387,6 +390,7 @@ footer {
     padding: 0;
     ul {
         display: flex;
+        margin-bottom: 0;
         li {
             margin: 0;
             list-style-type: none;
