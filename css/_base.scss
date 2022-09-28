@@ -251,7 +251,7 @@ section {
         border-radius: 10px;
         background-color: #D9D9D9;
         display: block;
-        rotate: -45deg;
+        rotate: -45deg !important;
         position: absolute;
         top: 40px;
         right: -8px; 
@@ -262,7 +262,7 @@ section {
         border-radius: 10px;
         background-color: #D9D9D9;
         display: block;
-        rotate: 45deg;
+        rotate: 45deg !important;
         position: absolute;
         top: 40px; 
         right: -8px; 
