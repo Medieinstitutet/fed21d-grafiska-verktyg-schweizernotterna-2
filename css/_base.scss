@@ -83,6 +83,7 @@ button {
     font-size: $size20px;
     line-height: $height25px;
     border: none;
+    cursor: pointer;
     &:hover {
         background-color: $darkRed;
     }
@@ -303,6 +304,9 @@ section {
         height: 175px;
         margin: 0 auto;
         margin-bottom: 30px;
+        &:hover {
+            box-shadow: 5px 5px 5px $black;
+        }
         img {
             width: 140px;
             height: 140px;
