@@ -198,6 +198,9 @@ section {
         line-height: $height43px;
         font-weight: 400;
         color: $white;
+        &:hover {
+            text-shadow: 0px 0px 15px $black;
+        }
     }
     #menuBtnHamburger {
         visibility: hidden;
